@@ -1,7 +1,5 @@
 # GymTrackerAI – Backend
 
----
-
 ## Descrizione Generale
 
 Il backend è realizzato in **Java con Spring Boot**. Gestisce:
@@ -9,8 +7,6 @@ Il backend è realizzato in **Java con Spring Boot**. Gestisce:
 - Registrazione e login
 - Salvataggio, aggiornamento e recupero delle sessioni di allenamento
 - Comunicazione con il servizio esterno di Machine Learning
-
----
 
 ## Architettura del Sistema
 
@@ -26,8 +22,6 @@ Il backend è realizzato in **Java con Spring Boot**. Gestisce:
   - `entity`: mapping JPA  
   - `security`: JWT filter, auth manager, exception handler
 
----
-
 ## Funzionalità Backend
 
 - Login, Registrazione, Recupero password (JWT)
@@ -36,8 +30,6 @@ Il backend è realizzato in **Java con Spring Boot**. Gestisce:
 - Recupero storico allenamenti utente
 - Comunicazione HTTP con il modello ML in Docker
 
----
-
 ## API Principali
 
 - `POST /api/v1/login`
@@ -45,8 +37,6 @@ Il backend è realizzato in **Java con Spring Boot**. Gestisce:
 - `POST /api/v1/workouts`: salva allenamento
 - `GET /api/v1/workouts/{userId}`: recupera storico
 - `DELETE /api/v1/workouts/{userId}/{date}`: elimina sessioni del giorno
-
----
 
 ## Repository Correlati
 
